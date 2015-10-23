@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 02, 2014 at 05:45 PM
+-- Generation Time: Oct 20, 2015 at 01:56 PM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -126,8 +126,9 @@ INSERT INTO `brominevesselpurgingrecord` (`Technicalidentificationnumber`, `WO_I
 ('', '41', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', '42', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', '43', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-('', '44', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-('', '45', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+('bobu-0001803', '44', 'hdjqhd', '2015/09/16---08:59:55pm', 'boxlab', 'wdwq', '2015/09/16---08:59:55pm', 'boxlab', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('', '45', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('', '46', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -150,7 +151,10 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
 --
 
 INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES
-('aa88093dd82f1e0c815282228f958060', '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.11', 1417538478, '');
+('18c9007890ef9e932367cd5d3126f22d', '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.11', 1445342088, ''),
+('1cbed0a1236342ce3395328468634da8', '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.11', 1445337190, ''),
+('910d2043a20cbb91cad33d41af025da7', '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.11', 1445336871, ''),
+('a04cd38f81e1b9604b44a89b2c986dc7', '127.0.0.1', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/34.0.1847.116 Chrome/34.0.1847.11', 1445342138, '');
 
 -- --------------------------------------------------------
 
@@ -196,7 +200,7 @@ INSERT INTO `colorstatus` (`workorderid`, `containerdimension`, `containerinspec
 ('19', 'yellow', 'greenyellow', 'yellow', 'greenyellow', 'yellow', 'greenyellow', 'greenyellow'),
 ('20', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow'),
 ('21', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow'),
-('22', 'yellow', 'yellow', 'yellow', 'yellow', 'yellow', 'yellow', 'yellow'),
+('22', 'yellow', 'yellow', 'yellow', 'yellow', 'red', 'yellow', 'yellow'),
 ('23', 'red', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow'),
 ('24', 'greenyellow', 'yellow', 'yellow', 'greenyellow', 'greenyellow', 'yellow', 'greenyellow'),
 ('25', 'red', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'yellow', ''),
@@ -208,7 +212,7 @@ INSERT INTO `colorstatus` (`workorderid`, `containerdimension`, `containerinspec
 ('31', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'yellow', 'red'),
 ('32', 'yellow', 'yellow', 'yellow', 'red', 'red', 'yellow', 'yellow'),
 ('33', 'greenyellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow'),
-('34', 'red', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow'),
+('34', 'red', 'greenyellow', 'red', 'greenyellow', 'red', 'greenyellow', 'greenyellow'),
 ('35', 'red', 'yellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow', 'yellow'),
 ('36', 'greenyellow', 'yellow', 'yellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow'),
 ('37', 'greenyellow', 'yellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow', 'yellow'),
@@ -218,8 +222,9 @@ INSERT INTO `colorstatus` (`workorderid`, `containerdimension`, `containerinspec
 ('41', 'greenyellow', 'yellow', 'greenyellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow'),
 ('42', 'greenyellow', 'yellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow', 'yellow'),
 ('43', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'yellow'),
-('44', 'greenyellow', 'greenyellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow', 'yellow'),
-('45', 'red', 'greenyellow', 'red', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow');
+('44', 'greenyellow', 'greenyellow', 'yellow', 'greenyellow', 'greenyellow', 'yellow', 'yellow'),
+('45', 'red', 'yellow', 'greenyellow', 'yellow', 'greenyellow', 'greenyellow', 'greenyellow'),
+('46', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow', 'greenyellow');
 
 -- --------------------------------------------------------
 
@@ -345,8 +350,9 @@ INSERT INTO `equipmentreleasecertificate` (`WO_ID`, `DateIssued`, `Issue`, `Equi
 ('41', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('42', '', '', 'bobu-0001803', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'Yes', 'No', '', '', '', 'No', 'No', '             ', '', '', 'yes', 'No', '', '', 'yes', 'yes', 'yes', 'No', 'yes', 'No', 'yes', 'yes', 'No', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('43', '', '', 'bobu-0001803', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '2343', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', '', 'yes', 'boxlab', '', '', 'No', 'No', 'boxlab              ', '', '', 'yes', 'yes', 'boxlab', '', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'yes', 'Yes', 'ecewf', 'ewfewf', 'Yes', 'ewfewfew', 'Yes', 'wefewf', 'wefewf', 'efewf', 'ewfewf', 'ewfewf', '2014/11/19---11:24:26pm', 'efewf'),
-('44', '2014/11/20', '', 'bobu-0001803', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'yes', 'yes', 'boxlab', '', 'no', 'yes', 'yes', 'boxlab', '', '', 'yesno', 'yes', 'boxlab', '', '', '', 'N/A', 'Not ok', 'Not ok', 'Not ok', 'Not ok', 'ok', 'Not ok', 'Yes', '', '', 'Not ok', '', 'N/A', '', '', '', '', '', '', ''),
-('45', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+('44', '2014/11/20', '', 'bobu-0001803', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'no', 'boxlab', '', '', 'yes', 'yes', 'boxlab', '', '', 'yes', 'yes', 'boxlab', '', '', 'yesno', 'yes', 'boxlab', '', '', '', 'N/A', 'Not ok', 'Not ok', 'Not ok', 'Not ok', 'ok', 'Not ok', 'Yes', '', '', 'Not ok', '', 'N/A', '', '', '', '', '', '', ''),
+('45', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('46', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -477,7 +483,7 @@ INSERT INTO `isocontainer` (`FillValve_RepairsorReplacements`, `VentValve_Repair
 ('', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 31, '', ''),
 ('Re-Cert', 'Re-Cert', 'Re-Cert', 'New', 'New', '0', '0', 'New', 'New', '0', '', '0', '0', '', '0', '0', '', '', '', '', '', '', '', '', '', '', '     2014/11/13---01:16:5', '     2014/11/13---01:16:5', '0', '0', '', '', '', '', '2014/11/12---10:58:09am', '0', 'boxlab', 'Attached', 'Attached', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', '0', 'Attached', 'N/A', 'N/A', 'Attached', 32, '0', '0'),
 ('', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 33, '', ''),
-('', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 34, '', ''),
+('Re-Cert', 'Re-Cert', 'New', '', '', '0', '0', '', 'New', '', '', '0', '0', '', '0', '0', '', '', 'xfvx', 'vx', 'fbf', 'bvcb', 'gcn', 'vcv', 'nvb', 'nbv', '2015/10/03---11:00:07pm', '2015/10/03---11:00:07pm', '0', '0', 'aA', 'Ss', 'Ss', 'ds', '2015/10/03---11:00:07pm', '0', 'dsd', '', '', '', '', '', '', '', '', '', '', '', '', 34, '0', '0'),
 ('Re-Cert', 'Re-Cert', 'Re-Cert', 'Re-Cert', 'Re-Cert', '0', '0', 'Re-Cert', 'Re-Cert', '0RFGREGER', '', '0', '0', '', '0', '0', '', '', '', '', '', '', '', '', '', '', ' 2014/11/14---01:20:10am ', ' 2014/11/14---01:20:10am ', '0', '0', '', '', '', '', '2014/11/14---01:20:10am', '0', 'boxlab', 'Attached', 'Attached', 'N/A', 'N/A', '', 'Attached', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 35, '0', '0'),
 ('Re-Cert', 'Re-Cert', '', '', '', '0', '0', '', 'Re-Cert', 'Ok', 'Ok', '0', '0', 'Ok', '0', '0', 'Ok', 'Ok', '', '', '', '', '', '', '', '', '      ', '      ', '0', '0', '', '', '', '', '', '0', '', 'N/A', 'Attached', 'Attached', 'N/A', 'N/A', 'Attached', 'Attached', 'N/A', '', '', '', '', 36, '0', '0'),
 ('New', 'Re-Cert', 'Re-Cert', '', 'Re-Cert', '0', '0', '', '', '0', '', '0', '0', '', '0', '0', '', '', '', '', '', '', '', '', '', '', '              ', '              ', '0', '0', '', '', '', '', '', '0', '', '', '', '', '', '', 'N/A', '', '0', '', '', '', '', 37, '0', '0'),
@@ -488,7 +494,8 @@ INSERT INTO `isocontainer` (`FillValve_RepairsorReplacements`, `VentValve_Repair
 ('Re-Cert', 'New', 'Re-Cert', 'New', 'New', '0', '0', 'Re-Cert', 'New', '0', '', '0', '0', '', '0', '0', '', '', '', '', '', '', '', '', '', '', '                         ', '                         ', '0', '0', '', '', '', '', '', '0', '', 'Attached', 'Attached', 'Attached', 'Attached', 'Attached', 'Attached', 'Attached', '0', 'Attached', 'Attached', 'Attached', 'Attached', 42, '0', '0'),
 ('', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 43, '', ''),
 ('Re-Cert', 'Re-Cert', 'Re-Cert', 'Re-Cert', 'Re-Cert', '0', '0', 'New', 'Re-Cert', '0', 'New', '0', '0', 'Re-Cert', '0', '0', '', '', '', '', '', '', '', '', '', '', '              ', '              ', '0', '0', '', '', '', '', '', '0', '', '', '', 'Attached', '', '', '', 'Attached', '0', '', '', '', '', 44, '0', '0'),
-('', '', '', '', '', '0', '0', '', '', '0', '', '0', '0', 'Ok', '0', '0', '', '', 'wqdwd', 'qwdwq', 'dw', 'd', 'wd', 'dwq', 'w', 'd', '2014/12/02---10:40:35am', '2014/12/02---10:40:35am', '0', '0', 'w', 'd', 'dw', 'w', '2014/12/02---10:40:35am', '0', '', '', '', '', '', '', '', '', '0', '', '', 'N/A', '', 45, '0', '0');
+('', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 45, '', ''),
+('', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 46, '', '');
 
 -- --------------------------------------------------------
 
@@ -584,7 +591,8 @@ INSERT INTO `isocontainerdimensionrecord` (`Technicalidentificationnumber`, `WO_
 ('', 42, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', 43, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', 44, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-('sample', 45, '0', '', '', '', '', '', '', '', '', '', '', '', '', '', '0', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+('sample', 45, '0', '', '', '', '', '', '', '', '', '', '', '', '', '', '0', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('', 46, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -633,9 +641,9 @@ INSERT INTO `isocontainerinspectionrecord` (`Technical_identification_number`, `
 ('', '19', '', '', '', '', '', '', '', '', ''),
 ('', '20', '', '', '', '', '', '', '', '', ''),
 ('', '21', '', '', '', '', '', '', '', '', ''),
-('GLBU-0002727', '22', 'dfg', 'gdfg', 'fdgfd', '0', 'dffd', 'fgdgdg', 'dfgdfg', 'dfgfdgdf', 'btn25,btn34,btn58,btn59,btn60,btn61,btn63,bktn57,bktn66,bhtn63,btkn60,bttn58,btnr59,btkp60,botn58,btn151,btn161,btn171,btn152,btn162,btn172,btn163,btn165,btn164,btn166'),
+('GLBU-0002727', '22', 'dfg', 'gdfg', 'fdgfd', '0', 'dffd', 'fgdgdg', 'dfgdfg', 'dfgfdgdf', 'btn25,btn34,btn58,btn59,btn60,btn61,btn63,bktn57,bktn66,bhtn63,bttn58,btnr59,btkp60,botn58,btn151,btn161,btn171,btn152,btn162,btn172,btn163,btn165,btn164,btn166'),
 ('', '23', '', '', '', '', '', '', '', '', ''),
-('GLBU-0002455', '24', '0', '0', '0', '0', '', 'v cvcv vc \n d df', '', '', ''),
+('GLBU-0002455', '24', '0', '0', '0', '0', '', 'v cvcv vc \n d df', 'boxlab', '2015/10/09', ''),
 ('', '25', '', '', '', '', '', '', '', '', ''),
 ('BOBU-0002203', '26', '', '', '', '0', 'fgdfgfgdfg', 'ajaydfgfdgd\nhujkjhkjh\ndlkjdxnl;gkmds''lgkd\ndglkdsmnglsdfkmgf;ldkm:FLmh:BCFLmh:Fld\ndgkllkmfxlgmblf;kgm;fglkfdg', '', '', 'bktn57'),
 ('', '27', '', '', '', '', '', '', '', '', ''),
@@ -656,7 +664,8 @@ INSERT INTO `isocontainerinspectionrecord` (`Technical_identification_number`, `
 ('bobu-0001803', '42', '', '', '', '', '', '', '', '', 'bktn57,btkp60'),
 ('', '43', '', '', '', '', '', '', '', '', ''),
 ('', '44', '', '', '', '', '', '', '', '', ''),
-('', '45', '', '', '', '', '', '', '', '', '');
+('sample', '45', '', '', '', '0', '', 'Mm', 'boxlab', '2015/10/06', ''),
+('', '46', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1392,7 +1401,8 @@ INSERT INTO `isoframeinspectionrecord` (`Technical_identification_number`, `WO_I
 ('', 42, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', 43, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', 44, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-('sample', 45, 'ewcd', 'sdvdsv', 'sdv', 'dsv', '0', 'dsvds', '0', '0', 'vdsv', '0', 'dsv', 'vdsv', 'dv', 'dsv', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'dsvds', 'dsvdsvd', 'dsv', 'vssdvd', 'sdvdv', 'vdsv', '0', '0', 'dsv', '0', '0', 'dsv', 'dsvvdsvds', 'dv', '0', '0', 'dsv', '0', 'dsvdv', 'dsv', 'dsv', 'dv', 'dv', 'dv', 'dv', '0', '0', 'dsv', 'dsv', '0', '0', '0', 'sdvv', '0', '0', '0', '0', '0', '0', '0', '0', 'dsv', 'dsv', '0', '0', 'dv', '0', '0', 'vdv', '0', 'dv', 'd', 'dsvdsv', 'dsv', '0', '0', 'dv', 'dsv', 'dv', 'dsvdv', 'dsvdv', 'vdsvsd', '0', '0');
+('sample', 45, 'ewcd', 'sdvdsv', 'sdv', 'dsv', '0', 'dsvds', '0', '0', 'vdsv', '0', 'dsv', 'vdsv', 'dv', 'dsv', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'dsvds', 'dsvdsvd', 'dsv', 'vssdvd', 'sdvdv', 'vdsv', '0', '0', 'dsv', '0', '0', 'dsv', 'dsvvdsvds', 'dv', '0', '0', 'dsv', '0', 'dsvdv', 'dsv', 'dsv', 'dv', 'dv', 'dv', 'dv', '0', '0', 'dsv', 'dsv', '0', '0', '0', 'sdvv', '0', '0', '0', '0', '0', '0', '0', '0', 'dsv', 'dsv', '0', '0', 'dv', '0', '0', 'vdv', '0', 'dv', 'd', 'dsvdsv', 'dsv', '0', '0', 'dv', 'dsv', 'dv', 'dsvdv', 'dsvdv', 'vdsvsd', '0', '0'),
+('', 46, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1466,7 +1476,7 @@ INSERT INTO `isoframeinspectionrecordpage2` (`issue`, `revision`, `Technical_ide
 ('', '', '', 31, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', '', '', 32, '', 'fglkg', 'boxlab', '2014/11/12', 'gdgdfg', 'no', 'boxlab', '2014/11/12', 'fghgfh', 'no', 'boxlab', '2014/11/12', 'gfhgh', 'yes', 'boxlab', '2014/11/12', '', 'boxlab', '2014/11/12', ''),
 ('', '', '', 33, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-('', '', '', 34, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('', '', '', 34, '', 'dgdg', 'boxlab', '2015/10/03', 'fbb', 'b', 'boxlab', '2015/10/03', 'fbf', 'bf', 'boxlab', '2015/10/03', 'bf', 'fc', 'boxlab', '2015/10/03', '', 'boxlab', '2015/10/03', ''),
 ('', '', '', 35, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', '', '', 36, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', '', '', 37, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
@@ -1477,7 +1487,8 @@ INSERT INTO `isoframeinspectionrecordpage2` (`issue`, `revision`, `Technical_ide
 ('', '', '', 42, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', '', '', 43, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
 ('', '', '', 44, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
-('', '', '', 45, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+('', '', '', 45, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('', '', '', 46, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1491,13 +1502,6 @@ CREATE TABLE IF NOT EXISTS `onrepair` (
   `containersize` varchar(123) NOT NULL,
   `manufacturer` varchar(120) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `onrepair`
---
-
-INSERT INTO `onrepair` (`workorderid`, `equipmentid`, `containersize`, `manufacturer`) VALUES
-(14, 'aocu-0308010', '18.5 MT', 'M.I. ENGINEERING');
 
 -- --------------------------------------------------------
 
@@ -1519,14 +1523,14 @@ CREATE TABLE IF NOT EXISTS `slotstatus` (
 --
 
 INSERT INTO `slotstatus` (`slotnumber`, `status`, `equipmentid`, `workorderid`, `containersize`, `manufacturer`) VALUES
-(1, 1, 'bobu-0001803', 44, '14 MT', 'BLEIWERK GOSLAR'),
-(2, 1, 'sample', 45, '15 MT', 'sample'),
-(3, 1, 'GLBU-0002455', 24, '19 MT', 'GLOBAL CONTAINER'),
-(4, 1, 'BOBU-0004150', 36, '18 MT', 'BLEIWERK GOSLAR'),
-(5, 1, 'GLBU-0002727', 22, '17.5 MT', 'SMI COMPANIES'),
-(6, 1, 'BOBU-0002203', 34, '17.4 MT', 'BLEIWERK GOSLAR'),
+(1, 0, '0', 0, '0', '0'),
+(2, 1, 'GLBU-0002455', 24, '19 MT', 'GLOBAL CONTAINER'),
+(3, 1, 'sample', 46, '15 MT', 'sample'),
+(4, 1, 'BOBU-0002203', 34, '17.4 MT', 'BLEIWERK GOSLAR'),
+(5, 0, '0', 0, '0', '0'),
+(6, 1, 'BOBU-0004150', 36, '18 MT', 'BLEIWERK GOSLAR'),
 (7, 1, 'aocu-0308010', 41, '18.5 MT', 'M.I. ENGINEERING'),
-(8, 1, 'GLBU-0002671', 37, '18.5 MT', 'SMI COMPANIES');
+(8, 1, 'GLBU-0002727', 22, '17.5 MT', 'SMI COMPANIES');
 
 -- --------------------------------------------------------
 
@@ -1602,7 +1606,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `firstname`, `lastname`, `role`, `emailid`, `mobile`, `sex`, `address`) VALUES
 ('clbox123', 'boxlab', '5f4dcc3b5aa765d61d8327deb882cf99', 'box', 'chokchai', 'admin', 'ajaypasagada@gmail.com', '1111111111', 'male', 'asdsafsdfsdfsdfsdfds'),
-('ajay123', 'ajay1234', '5f4dcc3b5aa765d61d8327deb882cf99', 'ajay', 'pasa', 'staff', 'ajay@gmail.com', '1111111111', 'male', 'qwfv xfklvnxclkvnlxk');
+('ajay123', 'ajay1234', '5f4dcc3b5aa765d61d8327deb882cf99', 'ajay', 'pasagada', 'staff', 'ajaypasagada12@gmail.com', '1111111111', 'male', 'qwfv xfklvnxclkvnlxk'),
+('staff123', 'staff123', '5f4dcc3b5aa765d61d8327deb882cf99', 'john', 'newman', 'staff', 'sulthan342@gmail.com', '3181231234', 'male', 'bond street eldorado');
 
 -- --------------------------------------------------------
 
@@ -1642,7 +1647,7 @@ INSERT INTO `workflowdetails` (`workorderid`, `equipmentid`, `containersize`, `m
 (11, 'bobu-0001803', '14 MT', 'BLEIWERK GOSLAR', 2, 'Tue Aug 26 2014 16:43:26 GMT-0500 (CDT)', 'Wed Sep 17 2014 01:44:01 GMT-0500 (CDT)', 'closed', 'no', ''),
 (12, 'GLBU-0002671', '18.5 MT', 'SMI COMPANIES', 3, 'Tue Aug 26 2014 17:07:09 GMT-0500 (CDT)', 'Sat Oct 04 2014 06:39:45 GMT-0500 (CDT)', 'closed', 'no', ''),
 (13, 'GLBU-0002455', '19 MT', 'GLOBAL CONTAINER', 4, 'Tue Aug 26 2014 23:03:28 GMT-0500 (CDT)', 'Fri Sep 19 2014 01:22:15 GMT-0500 (CDT)', 'closed', 'no', ''),
-(14, 'aocu-0308010', '18.5 MT', 'M.I. ENGINEERING', 5, 'Wed Aug 27 2014 11:53:47 GMT-0500 (CDT)', 'N/A', 'Onrepair', 'no', ''),
+(14, 'aocu-0308010', '18.5 MT', 'M.I. ENGINEERING', 5, 'Wed Aug 27 2014 11:53:47 GMT-0500 (CDT)', 'Fri Oct 09 2015 11:49:09 GMT-0500 (CDT)', 'closed', 'no', ''),
 (15, 'BOBU-0002203', '17.4 MT', 'BLEIWERK GOSLAR', 6, 'Thu Aug 28 2014 15:42:50 GMT-0500 (CDT)', 'Fri Sep 19 2014 01:20:29 GMT-0500 (CDT)', 'closed', 'no', ''),
 (16, 'sample', '15 MT', 'sample', 7, 'Sat Aug 30 2014 12:47:28 GMT-0500 (CDT)', 'Sat Oct 04 2014 06:39:14 GMT-0500 (CDT)', 'closed', 'no', ''),
 (17, 'box', '15 MT', 'ajay', 8, 'Sat Aug 30 2014 13:39:26 GMT-0500 (CDT)', 'Mon Sep 01 2014 11:19:56 GMT-0500 (CDT)', 'closed', 'no', ''),
@@ -1665,15 +1670,16 @@ INSERT INTO `workflowdetails` (`workorderid`, `equipmentid`, `containersize`, `m
 (34, 'BOBU-0002203', '17.4 MT', 'BLEIWERK GOSLAR', 7, 'Fri Oct 31 2014 06:16:05 GMT-0500 (CDT)', 'N/A', 'Inprogress', 'no', ''),
 (35, 'BOBU-0002203', '17.4 MT', 'BLEIWERK GOSLAR', 4, 'Wed Nov 12 2014 10:58:53 GMT-0600 (CST)', 'Fri Nov 14 2014 10:29:12 GMT-0600 (CST)', 'closed', 'no', ''),
 (36, 'BOBU-0004150', '18 MT', 'BLEIWERK GOSLAR', 4, 'Fri Nov 14 2014 03:47:04 GMT-0600 (CST)', 'N/A', 'Inprogress', 'no', ''),
-(37, 'GLBU-0002671', '18.5 MT', 'SMI COMPANIES', 6, 'Fri Nov 14 2014 11:29:19 GMT-0600 (CST)', 'N/A', 'Inprogress', 'no', ''),
+(37, 'GLBU-0002671', '18.5 MT', 'SMI COMPANIES', 6, 'Fri Nov 14 2014 11:29:19 GMT-0600 (CST)', 'Fri Sep 18 2015 03:10:42 GMT-0500 (CDT)', 'closed', 'no', ''),
 (38, 'aocu-0308010', '18.5 MT', 'M.I. ENGINEERING', 8, 'Fri Nov 14 2014 11:59:43 GMT-0600 (CST)', 'Sun Nov 16 2014 20:43:50 GMT-0600 (CST)', 'closed', 'no', ''),
 (39, 'aocu-0308010', '18.5 MT', 'M.I. ENGINEERING', 8, 'Sun Nov 16 2014 20:43:58 GMT-0600 (CST)', 'Sun Nov 16 2014 20:50:29 GMT-0600 (CST)', 'closed', 'no', ''),
 (40, 'aocu-0308010', '18.5 MT', 'M.I. ENGINEERING', 8, 'Sun Nov 16 2014 20:50:54 GMT-0600 (CST)', 'Sun Nov 16 2014 21:28:23 GMT-0600 (CST)', 'closed', 'no', ''),
 (41, 'aocu-0308010', '18.5 MT', 'M.I. ENGINEERING', 6, 'Sun Nov 16 2014 21:28:48 GMT-0600 (CST)', 'N/A', 'Inprogress', 'no', ''),
 (42, 'bobu-0001803', '14 MT', 'BLEIWERK GOSLAR', 1, 'Wed Nov 19 2014 04:02:34 GMT-0600 (CST)', 'Wed Nov 19 2014 07:29:31 GMT-0600 (CST)', 'closed', 'no', ''),
 (43, 'bobu-0001803', '14 MT', 'BLEIWERK GOSLAR', 1, 'Wed Nov 19 2014 23:24:14 GMT-0600 (CST)', 'Thu Nov 20 2014 00:04:03 GMT-0600 (CST)', 'closed', 'no', ''),
-(44, 'bobu-0001803', '14 MT', 'BLEIWERK GOSLAR', 1, 'Thu Nov 20 2014 00:11:14 GMT-0600 (CST)', 'N/A', 'Inprogress', 'no', ''),
-(45, 'sample', '15 MT', 'sample', 2, 'Fri Nov 21 2014 02:36:31 GMT-0600 (CST)', 'N/A', 'Inprogress', 'no', '');
+(44, 'bobu-0001803', '14 MT', 'BLEIWERK GOSLAR', 1, 'Thu Nov 20 2014 00:11:14 GMT-0600 (CST)', 'Tue Sep 22 2015 22:25:52 GMT-0500 (CDT)', 'closed', 'no', ''),
+(45, 'sample', '15 MT', 'sample', 2, 'Fri Nov 21 2014 02:36:31 GMT-0600 (CST)', 'Fri Oct 09 2015 11:48:43 GMT-0500 (CDT)', 'closed', 'no', ''),
+(46, 'sample', '15 MT', 'sample', 3, 'Fri Oct 09 2015 14:36:35 GMT-0500 (CDT)', 'N/A', 'Inprogress', 'no', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
